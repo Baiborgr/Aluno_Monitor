@@ -1,0 +1,111 @@
+@media screen and (max-width: 1100px) {
+	
+    header{
+        padding: 10px 0px;
+    }
+    #banner{
+        height: 350px;
+
+    }
+    #hubur{
+        display: none;
+    }
+    #logo{
+        height: auto;
+    }
+    #menu li{
+        margin-left: 10px;
+    }
+    #section-1, #section-2{
+    padding: 50px 0px;
+    width: 80%;
+    }
+
+    #material,#munitor{
+        width: 50%;
+    }
+    
+    #logo-escola{
+        width: 50%;
+    }
+  }
+
+@media screen and (max-width: 800px) {
+    #banner{
+        max-height: 300px;
+    }
+    #section-1, #section-2{
+    padding: 50px 0px;
+    width: 90%;
+    }
+    .aluno-mes{
+        width: 50%;
+        
+    }
+    #hubur{
+        display: none;
+    }
+    #especial{
+        margin: 10px auto;
+        display: block;
+    }
+    #logo-escola{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 735px){
+	
+        #menu, #menuhubur{
+        display: none;
+    }
+    
+    #menuhubur{
+         width: 300px;
+        position: fixed;
+        top:70px;
+        right: 0;
+
+    }
+     #hubur{
+        display: block;
+    }
+    #hubur:hover #menuhubur{
+        display: block;
+    }
+@media screen and (max-width: 519px){
+    #banner{
+        height: 190px;
+    }
+    #menuhubur{
+        left: 37%;
+        width: 65%;
+    }
+    #header{
+        padding: 4px 0px;
+    }
+    #logo{
+        width: 200px;
+        text-align: center;
+    }
+    
+   .aluno-mes{
+        width: 90%;
+        display: block;
+       margin: 10px auto;
+    } 
+    #material,#munitor{
+        width: 100%;
+        display: block;
+    }
+    #section-1{
+        text-align: center;
+    }
+    .munitor{
+        margin-top: 20px;
+    }
+     #section-1, #section-2{
+    padding: 50px 0px;
+    width: 100%;
+    }
+   
+}
